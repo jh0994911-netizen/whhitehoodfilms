@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clients | White Hood Films</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <img src="logo-whf.jpg" alt="White Hood Films logo" class="brand-logo" />
+          <div>
+            <div class="logo-sub">MUSIC · EVENTS · REELS</div>
+          </div>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="artists.html">Artists</a>
+          <a href="clients.html" class="active">Clients</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a
+            class="btn btn-outline"
+            href="https://wa.me/919953168252?text=Hi%20I%20want%20to%20talk%20about%20a%20project"
+            target="_blank"
+          >WhatsApp</a>
+          <a class="btn btn-primary" href="tel:+919953168252">Call</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">Clients</div>
+          <h1 class="section-title">Artists & brands I’ve worked with</h1>
+          <p class="section-sub">
+            A snapshot of the people and projects that have trusted White Hood Films
+            for videos, live show coverage and content.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h2 style="font-size:1rem;margin-bottom:0.5rem;">Playback & independent artists</h2>
+            <ul style="font-size:0.86rem;color:var(--muted);margin-left:1.1rem;">
+              <li>Suryaveer – revisited classics & live sets</li>
+              <li>Vishal Dixit – featured vocal performances</li>
+              <li>Sairaah – music video collaborations</li>
+              <li>Falita – live show content & reels</li>
+              <li>Apratim Mallya – rock / alternative shows</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2 style="font-size:1rem;margin-bottom:0.5rem;">Bands & collaborations</h2>
+            <ul style="font-size:0.86rem;color:var(--muted);margin-left:1.1rem;">
+              <li>We Are Fiza – band sessions & events</li>
+              <li>Multiple supporting musicians, DJs and session artists captured across gigs.</li>
+            </ul>
+            <p style="font-size:0.8rem;color:var(--muted);margin-top:0.7rem;">
+              This list can grow as you add more projects – just copy a list item and
+              update the name and description.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2 style="font-size:1rem;margin-bottom:0.5rem;">Events & curators</h2>
+            <p style="font-size:0.86rem;color:var(--muted);">
+              Club nights, ticketed shows, private music events and curated listening
+              sessions. Shoots are planned so organisers get both a strong aftermovie
+              and a bank of short clips that keep selling future events.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:2rem;">
+          <h2 style="font-size:1rem;margin-bottom:0.4rem;">Thinking about working together?</h2>
+          <p style="font-size:0.86rem;color:var(--muted);margin-bottom:0.6rem;">
+            If you’re planning a release, tour, residency or special show and want
+            visuals that match the level of the music, send over your links and dates.
+            I’ll share ideas and a realistic game plan instead of just a random number.
+          </p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.7rem;">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/919953168252?text=Hi%20I%20saw%20your%20clients%20page%20and%20want%20to%20plan%20a%20project"
+              target="_blank"
+            >Message on WhatsApp</a>
+            <a class="btn btn-outline" href="contact.html">Go to contact form</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-whatsapp">
+    <a
+      href="https://wa.me/919953168252?text=Hi%20I%20want%20to%20book%20you"
+      target="_blank"
+      aria-label="Message on WhatsApp"
+    >💬</a>
+  </div>
+
+  <div class="floating-call">
+    <a href="tel:+919953168252" aria-label="Call White Hood Films">📞</a>
+  </div>
+
+  <footer>
+    <div class="container footer-row">
+      <div>© <span id="year"></span> White Hood Films.</div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/whitehoodfilms" target="_blank">Instagram</a>
+        <a href="https://wa.me/919953168252" target="_blank">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="reveal.js"></script>
+</body>
+</html>
+

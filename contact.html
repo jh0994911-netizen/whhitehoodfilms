@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | White Hood Films</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="container">
+    <div class="nav">
+      <div class="logo">
+        <img src="logo-whf.jpg" alt="White Hood Films logo" class="brand-logo" />
+        <div>
+          <div class="logo-sub">MUSIC · EVENTS · REELS</div>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="artists.html">Artists</a>
+        <a href="clients.html">Clients</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a
+          class="btn btn-outline"
+          href="https://wa.me/919953168252?text=Hi%20I%20want%20to%20book%20a%20music%20shoot"
+          target="_blank"
+        >WhatsApp</a>
+        <a class="btn btn-primary" href="tel:+919953168252">Call</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section>
+      <div class="container contact-grid">
+        <div>
+          <div class="section-header">
+            <div class="section-eyebrow">Bookings & enquiries</div>
+            <h1 class="section-title">Let’s talk about your project</h1>
+            <p class="section-sub">
+              Whether it’s a music video, show coverage or a content plan for a release,
+              send a quick message with the basics and I’ll get back with ideas and a
+              realistic quote.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-row">
+              <div class="contact-label">Phone / WhatsApp</div>
+              <div class="contact-value">
+                <a href="tel:+919953168252">+91 99531 68252</a><br />
+                <a
+                  href="https://wa.me/919953168252?text=Hi%20I%20came%20from%20your%20website"
+                  target="_blank"
+                >
+                  Open WhatsApp chat
+                </a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Instagram</div>
+              <div class="contact-value">
+                <a href="https://www.instagram.com/whitehoodfilms" target="_blank">
+                  @whitehoodfilms
+                </a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Email</div>
+              <div class="contact-value">
+                <!-- update this once you fix your email -->
+                youremail@yourdomain.com
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Base city</div>
+              <div class="contact-value">
+                Your city, India (update this)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form onsubmit="event.preventDefault(); alert('Static preview only – connect to a backend or email service later.');">
+          <div>
+            <label for="name">Your name / act</label>
+            <input id="name" type="text" placeholder="Artist / band / organiser" required />
+          </div>
+          <div>
+            <label for="type">Project type</label>
+            <input
+              id="type"
+              type="text"
+              placeholder="Music video / live show / reels / studio session"
+              required
+            />
+          </div>
+          <div>
+            <label for="date">Dates & location</label>
+            <input id="date" type="text" placeholder="Approx. date, time & city" />
+          </div>
+          <div>
+            <label for="details">Project details</label>
+            <textarea
+              id="details"
+              placeholder="Links to your track or show, references you like, and anything important I should know."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send enquiry (preview)</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-whatsapp">
+    <a
+      href="https://wa.me/919953168252?text=Hi%20I%20want%20to%20book%20you"
+      target="_blank"
+      aria-label="Message on WhatsApp"
+    >💬</a>
+  </div>
+
+  <div class="floating-call">
+    <a href="tel:+919953168252" aria-label="Call White Hood Films">📞</a>
+  </div>
+
+  <footer>
+  <div class="container footer-row">
+    <div>© <span id="year"></span> White Hood Films. All rights reserved.</div>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/whitehoodfilms" target="_blank">Instagram</a>
+      <a href="https://wa.me/919953168252" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="reveal.js"></script>
+</body>
+</html>
