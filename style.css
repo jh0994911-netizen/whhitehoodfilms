@@ -122,7 +122,7 @@ header {
   align-items: center;
   gap: 1.2rem;
   font-size: 0.85rem;
-  flex-wrap: wrap; /* NEW: extra links ke liye wrap */
+  flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -397,6 +397,7 @@ section {
   background: radial-gradient(circle at top right, rgba(250, 204, 21, 0.16), transparent 55%);
   opacity: 0;
   transition: 0.25s;
+  pointer-events: none; /* IMPORTANT: so overlay doesn't block clicks */
 }
 
 .card:hover::before {
@@ -737,7 +738,6 @@ footer {
 /* ========= RESPONSIVE ========= */
 
 @media (max-width: 900px) {
-  /* pehle display:none tha – ab flex + scroll so nav visible rahe */
   .nav-links {
     display: flex;
     overflow-x: auto;
