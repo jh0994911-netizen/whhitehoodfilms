@@ -5,27 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ========================= -->
-  <!--        BASIC SEO TAGS      -->
+  <!--        BASIC SEO TAGS     -->
   <!-- ========================= -->
   <title>Why Cinematic Video Production Is the Future – Complete Guide by White Hood Films</title>
-  <meta name="description" content="Discover why cinematic video production is the future of branding. Learn how music videos, reels, event films, and professional videography boost visibility. White Hood Films delivers premium 30K-level visuals for artists, brands & events.">
+
+  <meta name="description" content="Discover why cinematic video production is the future of branding. Learn how music videos, reels, event films, and professional videography boost visibility. White Hood Films delivers premium cinematic visuals for artists, brands & events.">
+
   <meta name="keywords" content="White Hood Films, cinematic videography, music video production, event videography, Instagram reels, professional video services, artist branding, showreel production, premium visuals, video editing, color grading, brand films, filmmaking 2025" />
+
   <meta name="author" content="White Hood Films" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://jh0994911-netizen.github.io/whhitehoodfilms/blog/cinematic-video-production" />
+  <link rel="canonical" href="https://jh0994911-netizen.github.io/whhitehoodfilms/blog.html" />
+  <meta name="theme-color" content="#000000" />
 
   <!-- ========================= -->
-  <!--       OPEN GRAPH TAGS      -->
+  <!--       OPEN GRAPH TAGS     -->
   <!-- ========================= -->
+  <!-- TODO: Replace cover image URL with your real blog banner -->
   <meta property="og:title" content="Why Cinematic Video Production Is the Future – Guide by White Hood Films" />
-  <meta property="og:description" content="A complete guide to cinematic visuals, music videos, event videography, reels, artist branding & professional production. Learn how White Hood Films creates premium 30K-level visuals." />
+  <meta property="og:description" content="A complete guide to cinematic visuals, music videos, event videography, reels, artist branding & professional production. Learn how White Hood Films creates premium cinematic visuals." />
   <meta property="og:image" content="https://jh0994911-netizen.github.io/whhitehoodfilms/images/whitehoodfilms-cover.jpg" />
-  <meta property="og:url" content="https://jh0994911-netizen.github.io/whhitehoodfilms/blog/cinematic-video-production" />
+  <meta property="og:url" content="https://jh0994911-netizen.github.io/whhitehoodfilms/blog.html" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="White Hood Films" />
 
   <!-- ========================= -->
-  <!--      TWITTER CARD TAGS     -->
+  <!--      TWITTER CARD TAGS    -->
   <!-- ========================= -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Why Cinematic Video Production Is the Future – Guide by White Hood Films" />
@@ -33,7 +38,7 @@
   <meta name="twitter:image" content="https://jh0994911-netizen.github.io/whhitehoodfilms/images/whitehoodfilms-cover.jpg" />
 
   <!-- ========================= -->
-  <!--     STRUCTURED DATA        -->
+  <!--       STRUCTURED DATA     -->
   <!-- ========================= -->
   <script type="application/ld+json">
   {
@@ -54,11 +59,11 @@
         "url": "https://jh0994911-netizen.github.io/whhitehoodfilms/images/logo.png"
       }
     },
-    "url": "https://jh0994911-netizen.github.io/whhitehoodfilms/blog/cinematic-video-production",
-    "description": "A complete SEO-optimized guide explaining why cinematic video production, music videos, reels, and event films are the future of digital branding. Learn how White Hood Films creates premium 30K-level visuals that help artists and brands stand out.",
+    "url": "https://jh0994911-netizen.github.io/whhitehoodfilms/blog.html",
+    "description": "A complete SEO-optimized guide explaining why cinematic video production, music videos, reels, and event films are the future of digital branding. Learn how White Hood Films creates premium visuals that help artists and brands stand out.",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://jh0994911-netizen.github.io/whhitehoodfilms/blog/cinematic-video-production"
+      "@id": "https://jh0994911-netizen.github.io/whhitehoodfilms/blog.html"
     },
     "datePublished": "2025-01-01",
     "dateModified": "2025-01-01",
@@ -74,95 +79,581 @@
   }
   </script>
 
+  <!-- ========================= -->
+  <!--          STYLES           -->
+  <!-- ========================= -->
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       padding: 0;
-      background: #0a0a0a;
-      font-family: 'Poppins', sans-serif;
-      color: #fff;
+      background: #050505;
+      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #ffffff;
       line-height: 1.7;
     }
-    header {
-      padding: 30px;
-      text-align: center;
-      background: #111;
-      border-bottom: 1px solid #333;
+
+    a {
+      color: #ffcc66;
+      text-decoration: none;
     }
-    header h1 {
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Top bar / nav */
+    .navbar {
+      width: 100%;
+      padding: 16px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(5, 5, 5, 0.95);
+      border-bottom: 1px solid #262626;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+    }
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid #ffcc66;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .brand-text {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+    .nav-links a {
+      opacity: 0.8;
+    }
+    .nav-links a:hover {
+      opacity: 1;
+    }
+    .nav-links a.active {
+      color: #ffcc66;
+      opacity: 1;
+    }
+
+    /* Hero / header section */
+    .hero {
+      width: 100%;
+      padding: 60px 8% 20px;
+      background: radial-gradient(circle at top, rgba(255, 204, 102, 0.12), transparent 55%);
+      border-bottom: 1px solid #1c1c1c;
+    }
+    .hero-tag {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      color: #ffcc66;
+      margin-bottom: 10px;
+      opacity: 0.85;
+    }
+    .hero-title {
       font-size: 32px;
+      line-height: 1.3;
+      max-width: 780px;
       font-weight: 600;
     }
-    .container {
-      width: 90%;
+    .hero-subtitle {
+      margin-top: 14px;
+      max-width: 680px;
+      color: #d0d0d0;
+      font-size: 15px;
+    }
+    .hero-meta {
+      margin-top: 14px;
+      font-size: 12px;
+      color: #a0a0a0;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    /* Layout */
+    .page-wrap {
+      width: 100%;
+      padding: 30px 8% 60px;
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr);
+      gap: 40px;
+    }
+
+    @media (max-width: 900px) {
+      .page-wrap {
+        grid-template-columns: 1fr;
+      }
+      .navbar {
+        padding-inline: 16px;
+      }
+      .hero {
+        padding-inline: 16px;
+      }
+    }
+
+    /* Blog content */
+    .blog-content {
       max-width: 900px;
-      margin: 40px auto;
     }
-    h2 {
-      margin-top: 40px;
+    .blog-content h2 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 22px;
       color: #ffcc66;
-      font-size: 26px;
+      font-weight: 500;
     }
-    p {
-      margin: 15px 0;
-      font-size: 17px;
+    .blog-content p {
+      margin: 10px 0;
+      font-size: 15px;
       color: #e0e0e0;
     }
-    ul {
-      margin-left: 20px;
+    .blog-content ul {
+      margin: 8px 0 16px 20px;
+      padding: 0;
+      color: #e0e0e0;
+      font-size: 15px;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      border-top: 1px solid #333;
-      margin-top: 60px;
-      color: #777;
+    .blog-content li {
+      margin-bottom: 6px;
+    }
+
+    .highlight-box {
+      margin: 22px 0;
+      padding: 16px 18px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, rgba(255, 204, 102, 0.08), rgba(255, 255, 255, 0.02));
+      border: 1px solid rgba(255, 204, 102, 0.16);
       font-size: 14px;
+      color: #f2f2f2;
+    }
+    .cta-box {
+      margin: 30px 0 10px;
+      padding: 18px 20px;
+      border-radius: 14px;
+      background: linear-gradient(120deg, #ffcc66 0%, #f5a623 40%, #ffcc66 100%);
+      color: #000;
+    }
+    .cta-box h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .cta-box p {
+      margin: 4px 0 10px;
+      color: #111;
+    }
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .btn-dark-outline,
+    .btn-dark-solid {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      border: 1px solid #111;
+      cursor: pointer;
+    }
+    .btn-dark-solid {
+      background: #111;
+      color: #ffcc66;
+    }
+    .btn-dark-outline {
+      background: transparent;
+      color: #111;
+    }
+    .btn-dark-solid:hover {
+      background: #000;
+    }
+    .btn-dark-outline:hover {
+      background: rgba(0,0,0,0.08);
+    }
+
+    /* Sidebar */
+    .sidebar {
+      border-left: 1px solid #1c1c1c;
+      padding-left: 20px;
+    }
+    @media (max-width: 900px) {
+      .sidebar {
+        border-left: none;
+        border-top: 1px solid #1c1c1c;
+        padding-left: 0;
+        padding-top: 20px;
+      }
+    }
+    .sidebar-section {
+      margin-bottom: 26px;
+    }
+    .sidebar-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .sidebar-chip {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      background: #151515;
+      border: 1px solid #2a2a2a;
+      margin: 0 6px 6px 0;
+      color: #d0d0d0;
+    }
+    .sidebar-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+    }
+    .sidebar-list li {
+      margin-bottom: 8px;
+    }
+    .sidebar-list a {
+      color: #d8d8d8;
+      opacity: 0.85;
+    }
+    .sidebar-list a:hover {
+      opacity: 1;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid #1c1c1c;
+      padding: 18px 8% 24px;
+      font-size: 12px;
+      color: #777;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    footer a {
+      color: #999;
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>Why Cinematic Video Production Is the Future – Complete Guide by White Hood Films</h1>
+  <!-- ========================= -->
+  <!--          NAVBAR           -->
+  <!-- ========================= -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo-circle">WH</div>
+      <div class="brand-text">WHITE HOOD FILMS</div>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html" class="active">Blog</a>
+    </nav>
   </header>
 
-  <div class="container">
-    <p>In 2025, video content has become the most powerful tool for artists, brands, businesses, and creators worldwide. Whether it's music videos, Instagram reels, event aftermovies, or premium cinematic ads, the demand for high-quality visuals is at an all-time high.</p>
+  <!-- ========================= -->
+  <!--          HERO             -->
+  <!-- ========================= -->
+  <section class="hero">
+    <div class="hero-tag">BLOG · CINEMATIC BRANDING · 2025</div>
+    <h1 class="hero-title">
+      Why Cinematic Video Production Is the Future of Digital Branding
+    </h1>
+    <p class="hero-subtitle">
+      From music videos and Instagram reels to event aftermovies and brand films — here’s how premium visuals created by White Hood Films help artists, creators, and businesses dominate attention in 2025.
+    </p>
+    <div class="hero-meta">
+      BY WHITE HOOD FILMS · APPROX. 7 MIN READ
+    </div>
+  </section>
 
-    <h2>1. Why Cinematic Music Videos Are the Future of Artist Branding</h2>
-    <p>Music videos today define an artist's identity. A cinematic visual boosts image, reach, fanbase, and overall brand value.</p>
+  <!-- ========================= -->
+  <!--        MAIN LAYOUT        -->
+  <!-- ========================= -->
+  <main class="page-wrap">
+    <!-- ========== BLOG CONTENT ========== -->
+    <article class="blog-content">
+      <p>
+        In 2025, video content has become the most powerful tool for artists, brands, businesses, and creators worldwide.
+        Whether it's <strong>music videos</strong>, <strong>Instagram reels</strong>, <strong>event aftermovies</strong>, or
+        <strong>premium cinematic ads</strong>, the demand for high-quality visuals is at an all-time high.
+      </p>
 
-    <h2>2. How Professional Event Videography Increases Social Media Impact</h2>
-    <p>Events turn into powerful promotional assets when captured cinematically — creating share-worthy content.</p>
+      <p>
+        At <strong>White Hood Films</strong>, we specialise in delivering <strong>premium cinematic production</strong>
+        designed for artists, events, influencers, entrepreneurs, and brands who want to stand out in a crowded digital world.
+      </p>
 
-    <h2>3. How White Hood Films Creates 30K-Level Visuals</h2>
-    <p>Through cinema cameras, lighting, directing, expert editing, and color grading — premium visuals become the norm.</p>
+      <div class="highlight-box">
+        Cinematic content isn’t “luxury” anymore — it’s the new minimum standard if you want people to take your brand seriously.
+      </div>
 
-    <h2>4. Why Every Artist Needs a High-Quality Showreel</h2>
-    <p>A showreel is your visual CV. It decides your first impression with brands, labels, and audiences.</p>
+      <!-- 1. Music Videos -->
+      <h2>1. Why Cinematic Music Videos Are the Future of Artist Branding</h2>
+      <p>
+        Music videos are no longer just visuals — they are an <strong>extension of the artist’s identity</strong>.
+        When someone discovers you on YouTube, Instagram, or a streaming platform, your visual quality decides whether they remember you or swipe away.
+      </p>
+      <p> A professional, cinematic music video helps an artist:</p>
+      <ul>
+        <li>Build a unique, recognizable visual identity</li>
+        <li>Look serious and industry-ready to labels & promoters</li>
+        <li>Increase YouTube and social media engagement</li>
+        <li>Get more shares, reposts, and organic reach</li>
+        <li>Stand out from thousands of low-quality videos</li>
+      </ul>
+      <p>
+        At White Hood Films, we use a mix of storyboarding, shot planning, lighting, camera movement,
+        and color grading to make sure your music video doesn’t just look “good” — it looks <strong>cinematic</strong>.
+      </p>
 
-    <h2>5. Why Businesses Should Invest in Premium Video Content</h2>
-    <p>Video increases conversions, trust, SEO ranking, and brand dominance. Premium visuals = premium clients.</p>
+      <!-- 2. Event Videography -->
+      <h2>2. How Professional Event Videography Increases Social Media Impact</h2>
+      <p>
+        Events are emotional. Whether it’s a concert, festival, launch party, corporate event, or a private celebration — the energy is real, and that energy can be converted into <strong>content that sells you for months</strong>.
+      </p>
+      <p>High-quality event videography helps you:</p>
+      <ul>
+        <li>Promote your next event with real, authentic footage</li>
+        <li>Show scale, vibe, and audience reaction</li>
+        <li>Build trust with sponsors & partners</li>
+        <li>Generate reels and highlight clips for ongoing marketing</li>
+      </ul>
+      <p>
+        An event doesn’t end when the lights go off — it lives online through the visuals you share afterwards.
+        That’s why event coverage shot like a film has a much bigger impact than a few shaky phone clips.
+      </p>
 
-    <h2>6. Choosing the Right Production Team</h2>
-    <p>A professional production team ensures storytelling quality, technical excellence, and brand-focused visuals.</p>
+      <!-- 3. 30K-level visuals -->
+      <h2>3. Behind the Scenes: How White Hood Films Creates Premium-Level Visuals</h2>
+      <p>
+        Many clients ask us, “What makes your visuals feel so premium?”. The answer isn’t just the camera — it’s the entire production mindset.
+      </p>
+      <p>Here’s what goes into our cinematic look:</p>
+      <ul>
+        <li>High-end cameras paired with the right lenses</li>
+        <li>Controlled lighting to shape mood and depth</li>
+        <li>Stabilised movement using gimbals, sliders, and sometimes drones</li>
+        <li>Careful location and wardrobe planning to match the visual tone</li>
+        <li>Professional editing with beat-perfect rhythm and pacing</li>
+        <li>Advanced color grading to give a filmic, polished finish</li>
+        <li>Optional VFX, motion graphics, and stylised text for extra impact</li>
+      </ul>
+      <p>
+        This is how raw footage gets transformed into something that feels like it belongs on a streaming platform or big screen.
+      </p>
 
-    <h2>7. Amateur vs Professional Videography</h2>
-    <p>Professional filmmaking includes planning, lighting, color science, gear, and narrative direction.</p>
+      <!-- 4. Showreel -->
+      <h2>4. Top Reasons Every Artist Needs a High-Quality Showreel</h2>
+      <p>
+        A <strong>showreel</strong> is your visual CV. It tells people who you are in 30–90 seconds without a single word.
+      </p>
+      <p>A powerful showreel can help you:</p>
+      <ul>
+        <li>Impress brands, management, and collaborators instantly</li>
+        <li>Summarise your best work in one shareable link</li>
+        <li>Position yourself as a serious, high-value artist</li>
+        <li>Increase your chances of being selected for campaigns and shows</li>
+      </ul>
+      <p>
+        Instead of sending random clips and links, imagine sending one beautifully edited reel that makes people say:  
+        <em>“Okay, this person is on another level.”</em>
+      </p>
 
-    <h2>8. Why Instagram Reels Dominate 2025</h2>
-    <p>Reels offer the fastest organic growth, making them a must for artists, influencers, and brands.</p>
+      <!-- 5. Businesses & brands -->
+      <h2>5. Why Businesses Should Invest in Premium Video Content</h2>
+      <p>
+        If you run a brand or business, your audience is already consuming video content every day —
+        the only question is: <strong>are they watching yours?</strong>
+      </p>
+      <p>Premium video content helps you:</p>
+      <ul>
+        <li>Increase conversions on landing pages and ads</li>
+        <li>Improve trust through real visuals of your product/service</li>
+        <li>Rank better on search engines (video-rich pages perform better)</li>
+        <li>Build a modern, aspirational brand perception</li>
+      </ul>
+      <p>
+        In 2025, if your brand doesn’t have strong visuals, you automatically look weaker than the one that does — 
+        even if your actual product is better.
+      </p>
 
-    <h2>9. White Hood Films – Cinematic Excellence</h2>
-    <p>We deliver premium visuals through full-scale production, editing, VFX, reels, music videos, and brand films.</p>
+      <!-- 6. Right production team -->
+      <h2>6. How to Choose the Right Production Team for Your Project</h2>
+      <p>
+        Not every camera owner is a filmmaker. And not every filmmaker is the right fit for your brand or artistry.
+        Choosing the right production team is as important as choosing the right sound engineer or designer.
+      </p>
+      <p>Here’s what you should look for in a video production partner:</p>
+      <ul>
+        <li>A strong, updated portfolio (not just 1–2 good videos)</li>
+        <li>Experience with your type of project (music, events, brand, etc.)</li>
+        <li>Storytelling sense, not just slow-motion shots</li>
+        <li>Good communication and clarity about timelines & deliverables</li>
+        <li>Ability to handle concept, shoot, and post-production smoothly</li>
+      </ul>
+      <p>
+        At White Hood Films, we work like a creative partner — not just a camera operator. We focus on
+        making your final output match the energy and level of your goals.
+      </p>
 
-    <h2>10. Final Thoughts</h2>
-    <p>The future is visual. Premium video content defines identity, builds reputation, and drives engagement.</p>
-  </div>
+      <!-- 7. Amateur vs pro -->
+      <h2>7. The Real Difference Between Amateur & Professional Videography</h2>
+      <p>
+        On the surface, it might look like everyone is “just shooting video”. But the difference between an amateur setup and a professional production is huge.
+      </p>
+      <ul>
+        <li><strong>Planning:</strong> Professionals plan the shots, story, gear, and light in advance.</li>
+        <li><strong>Lighting:</strong> Amateurs rely on whatever light is available; pros shape light.</li>
+        <li><strong>Sound:</strong> Pros capture clean audio or design it in post.</li>
+        <li><strong>Color:</strong> Pros use color grading to create mood, not just filters.</li>
+        <li><strong>Story:</strong> Every scene has a purpose, not just random locations.</li>
+      </ul>
+      <p>
+        This is why professional visuals immediately look more expensive, polished, and trustworthy — 
+        even to a normal viewer who doesn’t understand the technical side.
+      </p>
 
+      <!-- 8. Reels -->
+      <h2>8. Why Instagram Reels Are the Strongest Growth Tool in 2025</h2>
+      <p>
+        Reels are the fastest way to reach people who don’t follow you yet. For artists, brands, and event organisers,
+        reels are no longer a side feature — they’re the main stage.
+      </p>
+      <p>High-impact reels can help you:</p>
+      <ul>
+        <li>Get discovered by new audiences through the algorithm</li>
+        <li>Showcase BTS, highlights, and teaser clips</li>
+        <li>Keep your brand in front of people daily</li>
+        <li>Convert viewers into followers, then into buyers or fans</li>
+      </ul>
+      <p>
+        At White Hood Films, we create reels with strong framing, smooth motion, crisp color, and rhythm-locked cuts
+        so your content feels scroll-stopping from the very first second.
+      </p>
+
+      <!-- 9. About WHF -->
+      <h2>9. White Hood Films – Delivering Cinematic Excellence</h2>
+      <p>
+        We aren’t just videographers. We are a <strong>full production team</strong> focused on creating
+        cinematic experiences for:
+      </p>
+      <ul>
+        <li>Independent artists & labels</li>
+        <li>Brands and agencies</li>
+        <li>Event organisers & promoters</li>
+        <li>Creators, influencers, and entrepreneurs</li>
+      </ul>
+      <p>
+        From concept to final export, we handle:
+      </p>
+      <ul>
+        <li>Creative direction & scripting</li>
+        <li>Location & shot planning</li>
+        <li>Cinematic shooting</li>
+        <li>Editing, sound design & color grading</li>
+        <li>Reels, trailers, showreels, and full-length cuts</li>
+      </ul>
+
+      <!-- 10. Final thoughts -->
+      <h2>10. Final Thoughts – The Future Belongs to Strong Visuals</h2>
+      <p>
+        The world is now <strong>video-first</strong>. People may scroll past a caption, but they will always react
+        to a powerful visual. Whether you’re an artist trying to build a fanbase, or a brand trying to earn trust,
+        cinematic video is your strongest weapon.
+      </p>
+      <p>
+        The only real question is: <strong>how do you want people to see you?</strong>  
+        As another random name in the feed — or as a premium, unforgettable presence.
+      </p>
+
+      <!-- CTA -->
+      <section class="cta-box">
+        <h3>Ready to Create Your Next Cinematic Project?</h3>
+        <p>
+          If you’re an artist, brand, or event organiser who wants visuals that actually match your ambition,
+          White Hood Films is ready to build it with you.
+        </p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn-dark-solid">Book a Project</a>
+          <a href="https://www.instagram.com/whitehoodflims" target="_blank" class="btn-dark-outline">
+            View Our Instagram
+          </a>
+        </div>
+      </section>
+    </article>
+
+    <!-- ========== SIDEBAR ========== -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-title">Topics in this guide</div>
+        <ul class="sidebar-list">
+          <li><a href="#top">Cinematic music videos</a></li>
+          <li><a href="#top">Event videography</a></li>
+          <li><a href="#top">Showreels for artists</a></li>
+          <li><a href="#top">Instagram reels strategy</a></li>
+          <li><a href="#top">Brand & business films</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-title">Keywords</div>
+        <span class="sidebar-chip">Cinematic Videography</span>
+        <span class="sidebar-chip">Music Videos</span>
+        <span class="sidebar-chip">Event Films</span>
+        <span class="sidebar-chip">Instagram Reels</span>
+        <span class="sidebar-chip">Artist Branding</span>
+        <span class="sidebar-chip">Showreel</span>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-title">Quick links</div>
+        <ul class="sidebar-list">
+          <li><a href="index.html">← Back to Home</a></li>
+          <li><a href="services.html">View All Services</a></li>
+          <li><a href="work.html">See Our Projects</a></li>
+          <li><a href="contact.html">Contact / Book a Shoot</a></li>
+          <li><a href="https://www.instagram.com/whitehoodflims" target="_blank">Instagram Profile</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- ========================= -->
+  <!--          FOOTER           -->
+  <!-- ========================= -->
   <footer>
-    © 2025 White Hood Films – All Rights Reserved
+    <span>© 2025 White Hood Films · All Rights Reserved</span>
+    <span>Made for artists, brands & events who take visuals seriously.</span>
   </footer>
 </body>
 </html>
